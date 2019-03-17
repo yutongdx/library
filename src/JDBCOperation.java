@@ -55,7 +55,7 @@ public class JDBCOperation {
         String driver = "com.mysql.jdbc.Driver";
         String url = "jdbc:mysql://localhost:3306/samp_db?useSSL=false";
         String username = "root";
-        String password = "";
+        String password = " ";
         Connection conn = null;
         try {
             Class.forName(driver); //classLoader,加载对应驱动
